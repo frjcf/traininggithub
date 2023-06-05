@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: unbutu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: |
           echo "${{ github.event.name }}"
